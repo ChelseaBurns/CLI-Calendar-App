@@ -2,9 +2,12 @@
   "name": "cli-calendar-app",
   "version": "1.0.0",
   "description": "This is an attempt to recreate the terminal \"cal\" command which displays a calendar in the terminal environment. This app will use NodeJS.",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive test/unit",
+    "test-integration": "mocha --recursive test/integration",
+    "test-cov": "istanbul cover _mocha -- --recursive",
+    "codeclimate-coverage": "codeclimate-test-reporter < ./coverage/lcov.info"
   },
   "repository": {
     "type": "git",
