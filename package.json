@@ -1,0 +1,23 @@
+{
+  "name": "cli-calendar-app",
+  "version": "1.0.0",
+  "description": "This is an attempt to recreate the terminal \"cal\" command which displays a calendar in the terminal environment. This app will use NodeJS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelseaBurns/CLI-Calendar-App.git"
+  },
+  "author": "Chelsea Burns <co.designux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChelseaBurns/CLI-Calendar-App/issues"
+  },
+  "homepage": "https://github.com/ChelseaBurns/CLI-Calendar-App#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
