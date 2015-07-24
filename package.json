@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ChelseaBurns/CLI-Calendar-App#readme",
   "devDependencies": {
     "chai": "^3.2.0",
+    "codeclimate-test-reporter": "^0.1.0",
     "mocha": "^2.2.5"
   }
 }
